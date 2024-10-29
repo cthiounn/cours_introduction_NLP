@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cthiounn.github.io/cours_introduction_NLP/1_intro.html</loc>
-    <lastmod>2024-10-11T09:26:28.365Z</lastmod>
+    <lastmod>2024-10-29T16:20:02.315Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cthiounn.github.io/cours_introduction_NLP/notebooks/2_Word_embeddings.html</loc>
+    <lastmod>2024-10-29T16:20:02.319Z</lastmod>
   </url>
   <url>
     <loc>https://cthiounn.github.io/cours_introduction_NLP/ressources.html</loc>
-    <lastmod>2024-10-11T09:26:28.365Z</lastmod>
+    <lastmod>2024-10-29T16:20:02.319Z</lastmod>
   </url>
   <url>
     <loc>https://cthiounn.github.io/cours_introduction_NLP/notebooks/NLTK.html</loc>
-    <lastmod>2024-10-11T09:26:28.365Z</lastmod>
+    <lastmod>2024-10-29T16:20:02.319Z</lastmod>
   </url>
 </urlset>
