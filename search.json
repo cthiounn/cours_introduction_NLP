@@ -32,7 +32,7 @@
     "href": "notebooks/2_Word_embeddings.html#fasttext-word2vec-amélioré",
     "title": "Transformer les mots en vecteurs numériques (Word embeddings)",
     "section": "4 - Fasttext : Word2vec amélioré",
-    "text": "4 - Fasttext : Word2vec amélioré\n\nMême chose que Word2vec, mais plutôt que les tokens soient des mots, les tokens sont des sous-mots/syllabes\nCela permet d’avoir une représentation vectorielle de mot qui n’était pas dans le vocabulaire initial\n\n\nimport fasttext.util\nfasttext.util.download_model('fr', if_exists='ignore')\nft = fasttext.load_model('cc.fr.300.bin')\n\n\nft.get_nearest_neighbors('Bonjour')\n\n\nft.get_word_vector('Bonjour')"
+    "text": "4 - Fasttext : Word2vec amélioré\n\nMême chose que Word2vec, mais plutôt que les tokens soient des mots, les tokens sont des sous-mots/syllabes\nCela permet d’avoir une représentation vectorielle de mot qui n’était pas dans le vocabulaire initial\n\n\n!curl \"https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fr.300.bin.gz\" -o \"cc.fr.300.bin.gz\"\n\n\n!gunzip  \"cc.fr.300.bin.gz\" \n\n\nimport fasttext.util\n#fasttext.util.download_model('fr', if_exists='ignore')\nft = fasttext.load_model('cc.fr.300.bin')\n\n\nft.get_nearest_neighbors('Bonjour')\n\n\nft.get_word_vector('Bonjour')"
   },
   {
     "objectID": "notebooks/2_Word_embeddings.html#embedding-contextuel-bert-gpt-et-transformers",
